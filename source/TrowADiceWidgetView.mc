@@ -1,3 +1,8 @@
+/**
+* Testing connect IQ
+*
+*
+*/
 using Toybox.WatchUi as Ui;
 using Toybox.System as Sys;
 using Toybox.Graphics as Gfx;
@@ -90,9 +95,7 @@ class TrowADiceWidgetView extends Ui.View {
         	dc.fillCircle(dc.getWidth()/2 + diceWidth/4, dc.getHeight()/2 + diceWidth/4, dotRadius);
         	//Upper right corner dot
         	dc.fillCircle(dc.getWidth()/2 + diceWidth/4, dc.getHeight()/2 - diceWidth/4, dotRadius);
-        }
-        
-        
+        }      
     }
 
     // Called when this View is removed from the screen. Save the
